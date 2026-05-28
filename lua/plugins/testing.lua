@@ -4,7 +4,6 @@ return {
     dependencies = {
       "nvim-neotest/nvim-nio",
       "nvim-lua/plenary.nvim",
-      "antoinemadec/FixCursorHighlight.nvim",
       "nvim-treesitter/nvim-treesitter",
       "haydenmeade/neotest-jest",
       "marilari88/neotest-vitest",

@@ -25,13 +25,4 @@ return {
       end, { desc = "Trigger linting" })
     end,
   },
-  {
-    "jay-babu/mason-nvim-lint.nvim",
-    dependencies = { "williamboman/mason.nvim", "mfussenegger/nvim-lint" },
-    config = function()
-      require("mason-nvim-lint").setup({
-        ensure_installed = { "eslint_d" },
-      })
-    end,
-  },
 }
