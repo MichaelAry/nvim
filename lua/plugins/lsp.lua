@@ -8,7 +8,7 @@ return {
     config = function()
       require("mason").setup()
       require("mason-lspconfig").setup({
-        ensure_installed = { "lua_ls", "pyright", "ts_ls", "rust_analyzer" },
+        ensure_installed = { "lua_ls", "pyright", "ts_ls", "rust_analyzer", "eslint" },
       })
 
       vim.api.nvim_create_autocmd("LspAttach", {
