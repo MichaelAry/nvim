@@ -10,6 +10,7 @@ return {
         typescript = { "eslint_d" },
         jsx = { "eslint_d" },
         tsx = { "eslint_d" },
+        python = { "ruff" },
       }
 
       local lint_augroup = vim.api.nvim_create_augroup("lint", { clear = true })

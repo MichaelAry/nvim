@@ -18,6 +18,7 @@ return {
 				"html",
 				"bash",
 				"markdown",
+				"http",
 			},
 			auto_install = true,
 			highlight = { enable = true },

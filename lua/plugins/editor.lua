@@ -1,7 +1,4 @@
 return {
-  -- Комментирование (gcc)
-  { "numToStr/Comment.nvim", opts = {} },
-
   -- Статуслайн
   {
     "echasnovski/mini.statusline",

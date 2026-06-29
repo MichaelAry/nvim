@@ -8,7 +8,7 @@ return {
 		config = function()
 			require("mason").setup()
 			require("mason-lspconfig").setup({
-				ensure_installed = { "lua_ls", "pyright", "ts_ls", "rust_analyzer", "eslint" },
+				ensure_installed = { "lua_ls", "pyright", "ts_ls", "rust_analyzer", "eslint", "cssls", "html", "jsonls" },
 				handlers = {
 					-- Автоматически запускает ВСЕ установленные серверы
 					function(server_name)
