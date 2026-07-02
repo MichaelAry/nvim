@@ -17,8 +17,8 @@ return {
   -- Умные текстовые объекты (ia, aa и т.п.) — очень рекомендую!
   { "echasnovski/mini.ai", version = false, config = true },
 
-  -- Окружение: sa, sd, sr (скобки, кавычки, теги)
-  { "echasnovski/mini.surround", version = false, config = true },
+  -- Окружение: ys, ds, cs (скобки, кавычки, теги)
+  { "kylechui/nvim-surround", version = "*", event = "VeryLazy", opts = {} },
 
   -- Автозакрытие парных символов
   { "echasnovski/mini.pairs", version = false, config = true },

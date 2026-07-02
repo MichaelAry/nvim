@@ -16,7 +16,7 @@
    ```
 4. **Установите LSP‑серверы и форматтеры** (через Mason):
    ```
-   :MasonInstall stylua prettierd isort black rustfmt
+   :MasonInstall stylua prettier isort black rustfmt
    ```
    > Примечание: базовые LSP (lua_ls, pyright, ts_ls, rust_analyzer) устанавливаются автоматически.
 
@@ -25,7 +25,7 @@
 - **Тема Zenwritten** — мягкая светлая тема без лишних акцентов.
 - **Telescope** — быстрый поиск файлов, текста и буферов.
 - **Hop** — мгновенное перемещение по видимой области экрана двумя символами (`s`).
-- **Conform** — автоформатирование при сохранении (stylua, prettierd, black, rustfmt).
+- **Conform** — автоформатирование при сохранении (stylua, prettier, black, rustfmt).
 - **Blink.cmp** — автодополнение с поддержкой сниппетов (LuaSnip + Friendly Snippets).
 - **Zen Mode** — режим концентрации (`<leader>z`).
 - **Mini.Statusline** — минималистичная строка состояния.
@@ -67,7 +67,7 @@
 
 - Neovim ≥ 0.9
 - Git
-- Опционально: `stylua`, `prettierd`, `isort`, `black`, `rustfmt` (устанавливаются через `:Mason`)
+- Опционально: `stylua`, `prettier`, `isort`, `black`, `rustfmt` (устанавливаются через `:Mason`)
 - Рекомендуется шрифт **Nerd Font** для корректного отображения иконок
 
 ---

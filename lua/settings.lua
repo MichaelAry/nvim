@@ -21,6 +21,19 @@ vim.opt.splitbelow = true
 vim.opt.inccommand = "split"
 vim.opt.cursorline = true
 
+-- Настройка диагностики (LSP + линтеры)
+vim.diagnostic.config({
+	virtual_text = {
+		prefix = "●",
+		spacing = 2,
+		source = "if_many",
+	},
+	signs = true,
+	underline = true,
+	update_in_insert = false,
+	severity_sort = true,
+})
+
 -- Цветовая схема (задаётся темой, но фон явно укажем)
 vim.opt.background = "light"
 vim.opt.termguicolors = true
